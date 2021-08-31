@@ -5,7 +5,7 @@
 
 
 ## Research Topic
-Auxiliary Substructure for Deployment Validations and Actions using RESTful API tool in CI/CD Pipelines
+Auxiliary Substructure for Deployment Validations and Actions using RESTful API tool in DevOps Pipelines
 
 <br />
 
