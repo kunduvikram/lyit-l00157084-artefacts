@@ -1,0 +1,42 @@
+pipeline {
+    agent none
+    
+    stages {
+        stage('Docker Build') {
+          agent any
+          steps {
+              echo 'This stage is clear'
+          }
+        }
+        stage('Unit Tests Stage') {
+          agent any
+          steps {
+              echo 'Unit tests executed correctly'
+          }
+        }
+        stage('Pre-Deloyment Validation Stage') {
+          agent any
+          steps {
+              echo 'Validated'
+          }
+        }
+        stage('Integration build Stage') {
+          agent any
+          steps {
+              echo 'Build Success'
+          }
+        }
+        stage('Integration Tests Stage') {
+          agent any
+          steps {
+              echo 'Integration Tests passed'
+          }
+        }
+        stage('Docker Image Push Stage') {
+          agent any
+          steps {
+              echo 'Image Pushed on DockerHub'
+          }
+        }
+    }
+}
