@@ -1,3 +1,4 @@
+## This Jenkinsfile is included as sample stages
 pipeline {
     agent none
     
