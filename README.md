@@ -1,4 +1,4 @@
-# LYIT-l00157084-Dissertation-artefacts
+# LYIT-l00157084-Dissertation-Artefacts
 
 
 # Introduction
